@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: lightgreen;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 900;
+  margin-bottom: 15px;
+  font-size: 34px;
+  color: darkblue;
+}
+
+button {
+  font-size: 14px;
+  padding: 4px 16px;
+  margin: 0 10px 30px 0;
+  border: 2px solid green;
+  border-radius: 4px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  color: darkblue;
+}
+
+button:hover {
+  background-color: green;
+  color: white;
+}
+
+.grid-container {
+  width: 660px;
+  height: 660px;
+  font-size: 0;
+  outline: 5px solid green;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cell {
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: inline-block;
+  cursor: crosshair;
+  color: white;
+}
